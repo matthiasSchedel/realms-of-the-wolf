@@ -1,0 +1,16 @@
+{
+  "name": "Realms of the Wolf",
+  "short_name": "Realms",
+  "description": "A winter real-time strategy skirmish: Dragon clan versus Wolf clan.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1d2a38",
+  "theme_color": "#1d2a38",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
