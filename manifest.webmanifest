@@ -1,7 +1,7 @@
 {
-  "name": "Realms of the Wolf",
-  "short_name": "Realms",
-  "description": "A winter real-time strategy skirmish: Dragon clan versus Wolf clan.",
+  "name": "Frostmark",
+  "short_name": "Frostmark",
+  "description": "An original winter real-time strategy skirmish: the Hearthguard against the Rimeborn.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",

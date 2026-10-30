@@ -1,6 +1,6 @@
 // Offline cache for the app shell. Same-origin GETs are cached on first use; cross-origin
-// requests (the optional archive.org download) are never touched.
-const CACHE = 'realms-of-the-wolf-v1';
+// requests are never touched.
+const CACHE = 'frostmark-v1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png'];
 
 self.addEventListener('install', (event) => {
