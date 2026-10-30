@@ -10,19 +10,33 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Frostmark" />
+    <meta name="application-name" content="Frostmark" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#1d2a38" />
+    <meta name="color-scheme" content="dark" />
     <meta
       name="description"
       content="An original winter real-time strategy skirmish: the Hearthguard against the Rimeborn."
     />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
-    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
     <title>Frostmark</title>
-    <script type="module" crossorigin src="./assets/index-CAs2hxTg.js"></script>
+    <style>html,body{background:#1d2a38;height:100%;margin:0}#boot{z-index:100;padding-bottom:calc(14vh + env(safe-area-inset-bottom,0px));color:#f2f5f8;letter-spacing:.04em;background:linear-gradient(#0000 55%,#0a0e1499),#1d2a38 url(./art/screens/loading.webp) 50%/cover no-repeat;flex-direction:column;justify-content:flex-end;align-items:center;font:600 15px/1.4 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;display:flex;position:fixed;inset:0}#boot .boot-title{letter-spacing:.12em;text-transform:uppercase;text-shadow:0 2px 18px #0009;font-size:44px;font-weight:800}#boot .boot-bar{background:#f2f5f826;border-radius:3px;width:min(320px,60vw);height:6px;margin:18px 0 10px;overflow:hidden}#boot .boot-bar:after{content:"";background:#e8a33d;border-radius:3px;width:40%;height:100%;animation:1.2s ease-in-out infinite alternate boot-slide;display:block}@keyframes boot-slide{to{transform:translate(150%)}}</style>
+    <script type="module" crossorigin src="./assets/index-B1VFgP4U.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-6ynjIPpj.css">
+    <link rel="modulepreload" crossorigin href="./assets/app-CS5fhKDx.js">
+    <link rel="modulepreload" crossorigin href="./assets/hook-BHs-M2AN.js">
+    <link rel="modulepreload" crossorigin href="./assets/kit-Dcoo7Z81.js">
+    <link rel="modulepreload" crossorigin href="./assets/sim-Bc7vWbce.js">
+    <link rel="modulepreload" crossorigin href="./assets/three-M1yul_LM.js">
   </head>
   <body>
+    <div id="boot" data-testid="boot">
+      <div class="boot-title">Frostmark</div>
+      <div class="boot-bar"></div>
+      <div class="boot-status">Lighting the braziers…</div>
+    </div>
     <main id="app"></main>
   </body>
 </html>

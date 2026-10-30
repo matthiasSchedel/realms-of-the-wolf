@@ -1,16 +1,21 @@
 {
+  "id": "./",
   "name": "Frostmark",
   "short_name": "Frostmark",
   "description": "An original winter real-time strategy skirmish: the Hearthguard against the Rimeborn.",
+  "lang": "en",
+  "categories": ["games"],
   "start_url": "./",
   "scope": "./",
-  "display": "fullscreen",
+  "display": "standalone",
+  "display_override": ["fullscreen", "standalone"],
   "orientation": "landscape",
   "background_color": "#1d2a38",
   "theme_color": "#1d2a38",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
   ]
 }
