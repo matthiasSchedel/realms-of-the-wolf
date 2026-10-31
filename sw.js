@@ -2,7 +2,7 @@
 // Precache: the app shell (html, every JS/CSS chunk, manifest, icons) and critical art, so a match starts
 // offline after the first visit. Everything else same-origin is cached the first time it loads.
 // Each build gets new cache names; activate deletes the previous build's caches.
-const VERSION = '029fe90a292b';
+const VERSION = 'c1488399d414';
 const PRECACHE = [
   "./art/icons/cmd-attack.webp",
   "./art/icons/cmd-build.webp",
@@ -42,14 +42,14 @@ const PRECACHE = [
   "./art/ui/button.webp",
   "./art/ui/minimap-frame.webp",
   "./art/ui/panel.webp",
-  "./assets/app-BKgcMRMq.js",
+  "./assets/app-C5frVsM0.js",
   "./assets/app-DaqN2GwE.css",
-  "./assets/hook-CIApmI6j.js",
-  "./assets/index-BW3eBJyb.css",
-  "./assets/index-CFp_0mK-.js",
+  "./assets/hook-Bi5r9gVZ.js",
+  "./assets/index-BXX-ZlPG.css",
+  "./assets/index-CfNFUm3C.js",
   "./assets/kit-Dpu3tRDR.js",
-  "./assets/sim-ByoIwXte.js",
-  "./assets/snapshot-0rMKbKe8.js",
+  "./assets/sim-DfNFeuag.js",
+  "./assets/snapshot-C8uOV9sl.js",
   "./assets/three-bQe04l9A.js",
   "./icons/apple-touch-icon.png",
   "./icons/icon-192.png",
